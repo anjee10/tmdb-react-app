@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Search from '../elements/Search/Search';
-import Grid from '../elements/Grid/Grid';
-import MovieThumb from '../elements/MovieThumb/MovieThumb';
-import Spinner from '../elements/Spinner/Spinner';
+import { Grid, MovieThumb, Search, Spinner } from '../../components';
 import { IMAGE_BASE_URL, POSTER_SIZE } from '../../config';
 import './Home.css';
 
@@ -25,7 +22,7 @@ const Home = ({ movies, loading, searchTerm, searchMovies }) => (
             image={
               element.poster_path
                 ? `${IMAGE_BASE_URL}${POSTER_SIZE}${element.poster_path}`
-                : './images/no_image.jpg'
+                : './src/images/no_image.jpg'
             }
             movieId={element.id}
             movieName={element.original_title}

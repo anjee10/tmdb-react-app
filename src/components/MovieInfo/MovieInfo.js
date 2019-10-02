@@ -3,10 +3,10 @@ import {
   IMAGE_BASE_URL,
   POSTER_SIZE,
   BACKDROP_RESOLUTION
-} from '../../../config';
+} from '../../config';
 import PropTypes from 'prop-types';
-import MovieThumb from '../MovieThumb/MovieThumb';
-import { calcTime, getReleaseYear } from '../../../helpers.js';
+import { MovieThumb } from '../../components';
+import { calcTime, getReleaseYear } from '../../helpers.js';
 import './MovieInfo.css';
 
 const MovieInfo = ({ movie, time, releaseDate, userScore }) => (
@@ -38,7 +38,7 @@ const MovieInfo = ({ movie, time, releaseDate, userScore }) => (
         image={
           movie.poster_path
             ? `${IMAGE_BASE_URL}${POSTER_SIZE}${movie.poster_path}`
-            : './images/no_image.jpg'
+            : './src/images/no_image.jpg'
         }
         clickable={false}
       />

@@ -8,7 +8,7 @@ import {
   clearMovie,
   setMoviePersistedState
 } from '../actions';
-import Movie from '../components/Movie/Movie';
+import { Movie } from '../components';
 
 class MovieContainer extends Component {
   static propTypes = {

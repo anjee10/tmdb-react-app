@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from '../../containers/Home.container';
 import Movie from '../../containers/Movie.container';
-import NotFound from '../elements/NotFound/NotFound';
+import { NotFound } from '../../components';
 
 const App = () => (
   <BrowserRouter>

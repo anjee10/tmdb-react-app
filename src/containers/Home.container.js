@@ -9,7 +9,7 @@ import {
   clearMovies,
   setPopularPersistedState
 } from '../actions';
-import Home from '../components/Home/Home';
+import { Home } from '../components';
 
 class HomeContainer extends Component {
   static propTypes = {

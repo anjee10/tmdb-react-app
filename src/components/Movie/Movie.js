@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Navigation from '../elements/Navigation/Navigation';
-import MovieInfo from '../elements/MovieInfo/MovieInfo';
-import Spinner from '../elements/Spinner/Spinner';
+import { Navigation, MovieInfo, Spinner } from '../../components';
 import './Movie.css';
 
 const Movie = ({ movie, loading }) => (
