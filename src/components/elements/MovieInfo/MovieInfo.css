@@ -1,0 +1,47 @@
+.movieinfo {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.movieinfo-title {
+  width: 100%;
+  height: 300px;
+}
+.movieinfo-overview {
+  width: 100%;
+  left: 20px;
+}
+.movieinfo-left {
+  float: left;
+  width: 30%;
+}
+.movieinfo-right {
+  float: right;
+  width: 70%;
+}
+.movieinfo-backdrop {
+  width: 100%;
+  position: relative;
+}
+.movieinfo-content {
+  background: #081c24;
+  width: 67%;
+  height: auto;
+  color: #fff;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  position: absolute;
+}
+.movieinfo-thumb {
+  position: relative;
+  top: -150px;
+  left: 30px;
+}
+
+@keyframes animateMovieinfo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "tmdb-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TMDB React App",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.prod.js",
+    "dev": "webpack-dev-server --open --config webpack.config.dev.js",
+    "dev:hot": "npm run dev -- --hot",
+    "test": "jest",
+    "format": "pretty-quick",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix",
+    "storybook": "start-storybook"
+  },
+  "author": "Anil Jeeyani <enil.jeeyani@gmail.com> (http://www.enil.biz)",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-storyshots": "^5.2.1",
+    "@storybook/react": "^5.2.1",
+    "@testing-library/jest-dom": "^4.1.0",
+    "@testing-library/react": "^9.2.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "react-axe": "^3.3.0",
+    "react-test-renderer": "^16.10.1",
+    "require-all": "^3.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.41.0",
+    "webpack-bundle-analyzer": "^3.5.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "core-js": "^3.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-fontawesome": "^1.6.1",
+    "react-hot-loader": "^4.12.14",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.4",
+    "redux": "^4.0.1",
+    "redux-promise": "^0.6.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run test"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjee10/tmdb-react-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anjee10/tmdb-react-app/issues"
+  },
+  "homepage": "https://github.com/anjee10/tmdb-react-app#readme"
+}

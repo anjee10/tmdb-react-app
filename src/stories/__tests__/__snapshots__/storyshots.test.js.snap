@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Search No input 1`] = `
+<div
+  className="search"
+>
+  <div
+    className="tmdb-logo"
+  >
+    <img
+      alt="tmdb-logo"
+      className="tmdb"
+      src="test-file-stub"
+    />
+  </div>
+  <div
+    className="search-content"
+  >
+    <input
+      className="search-input"
+      onChange={[Function]}
+      placeholder="Search Movie Title..."
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Search With input 1`] = `
+<div
+  className="search"
+>
+  <div
+    className="tmdb-logo"
+  >
+    <img
+      alt="tmdb-logo"
+      className="tmdb"
+      src="test-file-stub"
+    />
+  </div>
+  <div
+    className="search-content"
+  >
+    <input
+      className="search-input"
+      onChange={[Function]}
+      placeholder="Search Movie Title..."
+      type="text"
+      value="Avengers"
+    />
+  </div>
+</div>
+`;
