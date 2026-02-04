@@ -24,7 +24,7 @@
     "@babel/preset-env": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-storyshots": "^5.2.1",
-    "@storybook/react": "^5.2.1",
+    "@storybook/react": "^5.3.21",
     "@testing-library/jest-dom": "^4.1.0",
     "@testing-library/react": "^9.2.0",
     "babel-eslint": "^10.0.3",
@@ -65,7 +65,7 @@
     "react-hot-loader": "^4.12.14",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.4",
+    "react-scripts": "5.0.1",
     "redux": "^4.0.1",
     "redux-promise": "^0.6.0"
   },
