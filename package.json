@@ -24,7 +24,7 @@
     "@babel/preset-env": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-storyshots": "^5.2.1",
-    "@storybook/react": "^5.2.1",
+    "@storybook/react": "^10.2.6",
     "@testing-library/jest-dom": "^4.1.0",
     "@testing-library/react": "^9.2.0",
     "babel-eslint": "^10.0.3",
